@@ -1,0 +1,5 @@
+<app-modB-componentA [valueFromParent]="parentValue" (valueFromChind)="printValueFromChild($event)"></app-modB-componentA>
+
+<button (click)="onChangeValue()">Change From Parent</button>
+
+<h1>{{valueFromChild}}</h1>
